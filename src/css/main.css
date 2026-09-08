@@ -1,5 +1,23 @@
+html {
+    background: #ffffff;
+    font-family: "Arial", sans-serif;
+}
+body {
+    max-width: 750px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;  
+    background: #FFA500;
+}
+
 #selfie {
     display: block;
-    width: 250px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
+    border-radius: 50%;
+}
+
+.centered-text {
+    text-align: center;
 }
